@@ -1,4 +1,12 @@
-div {
-  width: 200px;
-  border: 1px solid green;
+p {
+  animation: pointdown 1000ms infinite alternate-reverse;
+}
+
+@keyframes pointdown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(20px);
+  }
 }
